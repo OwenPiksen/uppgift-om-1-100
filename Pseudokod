@@ -1,0 +1,21 @@
+Skapa heltalsvariabel med randomisering av 1-100
+Fråga användaren om den kan gissa på ett tal mellan 1-100
+Om tal = random tal
+  Skriv: Du fick rätt tal det var "Respektive random tal"
+Annars
+  Skriv: Du fick Fel ditt tall
+  Om tal ≤ random tal: skriv ditt tall är lägre än Datorns Tal, Prova igen
+ Annars
+  Om tal ≥ random tal: skriv ditt tall är större än datorns tal, Prova igen.
+
+Gör så den har en loop som gör detta:(
+
+Om tal = random tal
+  Skriv: Du fick rätt tal det var "Respektive random tal"
+Annars
+  Skriv: Du fick Fel ditt tall
+  Om tal ≤ random tal: skriv ditt tall är lägre än Datorns Tal, Prova igen
+ Annars
+  Om tal ≥ random tal: skriv ditt tall är större än datorns tal, Prova igen.
+  )
+  tills tal = random tal
